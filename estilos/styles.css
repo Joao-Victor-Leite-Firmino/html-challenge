@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lista {
+    display: flex;;
+}
+
+.lista__links {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.lista__links a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista__links a:hover{
+    color: #ed145b;
+}
