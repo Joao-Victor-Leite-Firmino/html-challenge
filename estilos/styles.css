@@ -10,22 +10,9 @@
     padding: 0;
 }
 
-.titulo {
-    font-family: var(--fonte-roboto);
-    font-weight: 500;
-    padding: 2% 0% 2% 5%;
-    font-size: 25px;
-}
-
-.texto {
-    font-family: var(--fonte-montserrat);
-    padding: 2% 5% 0.5px 5%;
-    font-size: 20px;
-}
-
 .lista {
     display: flex;
-    margin: 2%;
+    margin: 1% 0% 0% 2.5%;
 }
 
 .lista__links {
@@ -42,4 +29,47 @@
 
 .lista__links a:hover{
     color: #ed145b;
+}
+
+.titulo {
+    font-family: var(--fonte-roboto);
+    font-weight: 500;
+    padding: 2% 0% 2% 5%;
+    font-size: 25px;
+}
+
+.texto {
+    font-family: var(--fonte-montserrat);
+    padding: 2% 5% 0.5px 5%;
+    font-size: 20px;
+}
+
+.equipe__participantes {
+    padding: 0% 2% 0% 5%;
+    font-family: var(--fonte-montserrat);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.equipe__participantes__integrantes {
+    text-align: center;
+}
+
+.equipe__participantes__fotos {
+    width: 150px;;
+}
+
+.equipe__participantes__nomes {
+   align-items: center;
+}
+
+.equipe__participantes__foto__joao {
+    width: 85%;
+    padding-bottom: 5%;
+}
+
+.img__linkedin {
+    width: 30px;
 }
