@@ -1,20 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
+
+:root {
+    --fonte-roboto: 'roboto', sans-serif;
+    --fonte-montserrat: 'montserrat', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
+.titulo {
+    font-family: var(--fonte-roboto);
+    font-weight: 500;
+    padding: 2% 0% 2% 5%;
+    font-size: 25px;
+}
+
+.texto {
+    font-family: var(--fonte-montserrat);
+    padding: 2% 5% 0.5px 5%;
+    font-size: 20px;
+}
+
 .lista {
-    display: flex;;
+    display: flex;
+    margin: 2%;
 }
 
 .lista__links {
     list-style-type: none;
-    padding: 10px;
+    padding: 30px;
 }
 
 .lista__links a{
     text-decoration: none;
     color: black;
+    font-family: var(--fonte-montserrat);
+    font-weight: bold;
 }
 
 .lista__links a:hover{
