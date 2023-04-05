@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@500&display=swap');
-
-:root {
-    --fonte-roboto: 'roboto', sans-serif;
-    --fonte-montserrat: 'montserrat', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -23,7 +18,7 @@
 .lista__links a{
     text-decoration: none;
     color: black;
-    font-family: var(--fonte-montserrat);
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
@@ -32,21 +27,20 @@
 }
 
 .titulo {
-    font-family: var(--fonte-roboto);
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     padding: 2% 0% 2% 5%;
     font-size: 25px;
 }
 
 .texto {
-    font-family: var(--fonte-montserrat);
+    font-family: 'Montserrat', sans-serif;
     padding: 2% 5% 0.5px 5%;
     font-size: 20px;
 }
 
 .equipe__participantes {
     padding: 0% 2% 0% 5%;
-    font-family: var(--fonte-montserrat);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,21 +49,33 @@
 
 .equipe__participantes__integrantes {
     text-align: center;
+    margin-top: 2%;
 }
 
 .equipe__participantes__fotos {
-    width: 150px;;
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.equipe__participantes__fotos:hover{
+    scale: 1.1;
 }
 
 .equipe__participantes__nomes {
    align-items: center;
-}
-
-.equipe__participantes__foto__joao {
-    width: 85%;
-    padding-bottom: 5%;
+   font-family: 'Montserrat', sans-serif;
 }
 
 .img__linkedin {
     width: 30px;
+    padding-top: 10px;
+}
+
+.img__linkedin:hover {
+    scale: 1.1;
+}
+
+.equipe__participantes__rm {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
