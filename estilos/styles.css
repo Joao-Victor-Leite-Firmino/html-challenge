@@ -79,3 +79,12 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
+
+.organograma {
+    text-align: center;
+}
+
+.imagem__organograma {
+    width: 70%;
+    ;
+}
