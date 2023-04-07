@@ -9,14 +9,15 @@
 </head>
 <body>
     <nav>
+        <img class="logo__porto" src="imgs/porto-logo.png" alt="Logo Porto">
         <ul class="lista">
-        <li class="lista__links"><a href="index.html">Home</a></li>
-        <li class="lista__links"><a href="login.html">Login</a></li>
-        <li class="lista__links"><a href="solicitacao.html">Solicitação de guincho</a></li>
-        <li class="lista__links"><a href="atualizacao.html">Atualização de cadastro</a></li>
-        <li class="lista__links"><a href="suporte.html">Suporte</a></li>
-        <li class="lista__links"><a href="equipe.html">Equipe</a></li>
-        <li class="lista__links"><a href="organograma.html">Organograma</a></li>
+            <li class="lista__links"><a href="index.html">Home</a></li>
+            <li class="lista__links"><a href="login.html">Login</a></li>
+            <li class="lista__links"><a href="solicitacao.html">Solicitação de guincho</a></li>
+            <li class="lista__links"><a href="atualizacao.html">Atualização de cadastro</a></li>
+            <li class="lista__links"><a href="suporte.html">Suporte</a></li>
+            <li class="lista__links"><a href="equipe.html">Equipe</a></li>
+            <li class="lista__links"><a href="organograma.html">Organograma</a></li>
         </ul>
     </nav>
     <header>
@@ -24,13 +25,21 @@
             <h1>Home</h1>
         </section>
     </header>
+    <section class="titulo">
+        <h3>Solução proposta</h3>
+    </section>
         <section class="paragrafo">
             <p class="texto">
-                Após a conversa inicial com a Porto, chegamos a conclusão que a principal dor da empresa está na falta de informações recebidas do cliente quando é feita a solicitação do guincho.
-Por isso, a nossa solução busca diminuir a lacuna entre os dados fornecidos pelo cliente e os necessários para a escolha do modal correto. Para isso, buscamos catalogar os veículos cadastrados e suas características em um banco de dados, para que o condutor não tenha a responsabilidade de listar as especificações do automóvel. 
+                Após a conversa inicial com a Porto, chegamos a conclusão que a principal dor da empresa está na falta de informações recebidas do cliente quando é feita a solicitação do guincho. Para isso, solicitaremos informações por texto ou foto de documentos, como o documento do veículo e do condutor para uma validação e cruzamento dos dados.
             </p>
             <p class="texto">
-                Com o veículo cadastrado, basta uma busca pela placa do veículo para que a equipe da porto tenha acesso a todos os detalhes do automóvel e escolher o modal correto no primeiro envio, evitando o retrabalho e a necessidade de interferência humana. Além disso, foi dito que fotos são solicitadas apenas no segundo chamado. Chegamos a conclusão que o envio das imagens logo na primeira solicitação é importante, pois o tipo de acidente influencia na escolha do modal. 
+                Com o documento em mãos conseguimos obter as especificações do veículo ainda original, validamos os dados por uma IA e a obtenção de novas informações por intermédio de uma API, através do documento do veículo obtemos as modificações legais (em acordo com a lei) porém também disponibilizamos um campo para que o condutor escreva uma modificação que o mesmo tenha ciência. Para uma outra checagem, solicitamos também ao condutor fotos da condição atual do veículo, assim podendo validar as especificações obtidas e compreender a situação atual do veículo.
+            </p>
+            <p class="texto">
+                Para validação do caso relatado ser algo verídico ou não utilizaremos da posição atual do aparelho que está requisitando o suporte, o GPS do veículo, um campo para o condutor informar onde ocorreu o incidente, e a foto que foi passada do veículo a qual irá conter a geolocalização armazenadas no arquivo JSON vinculado com a foto JPEG tirada de dentro do aplicativo/site que irá solicitar a permissão de acesso a localização também na parte da foto.
+            </p>
+            <p class="texto">
+                Compilado estes dados, a IA escolhe o modal mais apropriado para situação com base nas informações reunidas: características originais, modificações contidas no documento, modificações citadas pelo condutor, modificações notáveis nas fotos, se teve ou não envolvimento em acidente pelo relato do condutor e pelas fotos e a validação da localização.
             </p>
         </section>
     </main>
